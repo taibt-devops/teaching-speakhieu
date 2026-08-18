@@ -1,4 +1,4 @@
-# speakhieu — Gia sư tiếng Anh giao tiếp (Thanh Hiếu)
+# teaching-speakhieu — Gia sư tiếng Anh giao tiếp (Thanh Hiếu)
 
 Trang một tệp, HTML/CSS/JS thuần. Đây là repo **tách riêng cho trang dạy học**,
 deploy lên GitHub Pages với tên miền `teaching.speakhieu.pro`.
