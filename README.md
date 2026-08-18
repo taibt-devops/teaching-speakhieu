@@ -44,5 +44,4 @@ Khung `.video-frame` đã có sẵn trong CSS, không phải thêm gì.
    - Redirect tên trần `speakhieu.pro` → `https://teaching.speakhieu.pro`
 3. Settings → Pages → Custom domain: `teaching.speakhieu.pro` → Save → chờ
    xác thực DNS → bật **Enforce HTTPS**.
-4. Sau khi tên miền sống: trong `index.html` đổi 3 link `taibt-devops.github.io/hieu-portfolio`
-   thành `https://mc.speakhieu.pro` (đã đánh dấu TODO sẵn trong file).
+4. ĐÃ XONG: các link chéo đã trỏ https://mc.speakhieu.pro
