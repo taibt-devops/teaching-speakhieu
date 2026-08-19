@@ -620,3 +620,45 @@ del::after  { transform: rotate(1.4deg) translateY(0.06em); }
   .sheet-header { gap: 10px; }
   .mc-link { display: none; } /* mobile: giữ chữ ký + nút Học thử là đủ */
 }
+
+/* --- Hồ sơ đính kèm: tờ giấy thứ hai kẹp vào bản ghi --- */
+.dossier {
+  max-width: 620px;
+  margin: 28px 0 8px 84px;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--ink);
+  padding: clamp(20px, 3vw, 28px);
+  box-shadow: 5px 6px 0 rgba(38, 33, 21, 0.09);
+}
+.dossier-head {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-bottom: 14px;
+}
+.dossier ul { list-style: none; }
+.dossier li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 11px;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--ink-dim);
+}
+.dossier li:last-child { margin-bottom: 0; }
+.dossier li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--pen);
+}
+.dossier b { color: var(--ink); font-weight: 700; }
+.dossier i { font-style: italic; }
+
+@media (max-width: 720px) {
+  .dossier { margin-left: 0; }
+}
